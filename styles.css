@@ -195,12 +195,22 @@ nav a:hover {
 
 /* --------------------- NEWSLETTER SECTION ---------- */
 
+/*
 .newsletter {
   background: #48BB78;
   color: #FFFFFF;
   padding: 40px 0;
   text-align: center;
 }
+  */
+  .newsletter {
+  background: #48BB78;
+  color: #FFFFFF; /* This is the general text color for the section */
+  padding: 40px 0;
+  text-align: center;
+}
+
+
 .newsletter form {
   display: flex;
   justify-content: center;
@@ -228,10 +238,18 @@ nav a:hover {
 
 /*Newsletter message upon success. */
 
-.message {
+/*
+.newsletter .message {
   margin-top: 15px;
-  /* font-weight: bold; */
+  font-weight: bold; 
   color: #1A202C;
+}
+  */
+
+.newsletter .message {
+  margin-top: 15px;
+  font-weight: bold; 
+  /*lor: #1A202C;*/
 }
 
 /* ------------------------ FOOTER ---------------------- */
