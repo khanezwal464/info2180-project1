@@ -65,7 +65,7 @@ nav a:hover {
 }
 
 .overview-hero .container {
-  display: flex;              /* make image + text sit side by side */
+  display: flex;              /* making image and text sit side by side */
   flex-direction: row;         /* image on the left, text on the right */
   align-items: center;
   gap: 50px;                   /* spacing between image and text */
@@ -73,20 +73,10 @@ nav a:hover {
 
 .overview-hero-image img {
   max-width: 300px;
-  border-radius: 5px;          /* optional */
+  border-radius: 5px;         
 }
 
-/*.overview-hero-text h2 {
-  margin-top: 0;
-  font-size: 28px;
-  margin-bottom: 10px;
-}
 
-.overview-hero-text p {
-  margin-top: 0;
-}
-
-*/
 
 
 /* -------------------------- LEARN ABOUT SECTION ---------------------*/
