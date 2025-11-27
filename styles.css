@@ -202,3 +202,27 @@ nav a:hover {
   padding: 40px 0;
   text-align: center;
 }
+.newsletter form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.newsletter input[type="email"] {
+  padding: 12px;
+  border-radius: 5px;
+  border: none;
+  width: 280px;
+}
+
+.newsletter button {
+  background: #5A67D8;
+  color: #FFFFFF;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.newsletter .btn:hover {
+  background: #4A5568;       /* button becomes darker blue on hover */
+}
