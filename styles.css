@@ -226,3 +226,24 @@ nav a:hover {
 .newsletter .btn:hover {
   background: #4A5568;       /* button becomes darker blue on hover */
 }
+
+/*Newsletter message upon success. */
+
+.message {
+  margin-top: 15px;
+  /* font-weight: bold; */
+  color: #1A202C;
+}
+
+/* ------------------------ FOOTER ---------------------- */
+
+footer {
+  background: #4A5568;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  margin: 0;
+}
